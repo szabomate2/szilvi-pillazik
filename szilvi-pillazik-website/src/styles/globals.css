@@ -1,0 +1,54 @@
+body {
+    background-color: #f5f0e1; /* Light brown background */
+    color: #4b3d2b; /* Darker brown text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #3e2a1f; /* Darker shade for headings */
+}
+
+a {
+    color: #6f4c3e; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #d9c6b2; /* Light brown header */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #d9c6b2; /* Light brown footer */
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button {
+    background-color: #6f4c3e; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #5a3e31; /* Darker button on hover */
+}

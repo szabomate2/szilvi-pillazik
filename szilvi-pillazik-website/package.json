@@ -1,0 +1,29 @@
+{
+  "name": "szilvi-pillazik-website",
+  "version": "1.0.0",
+  "description": "Website for Szilvi's lash business",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "website",
+    "lash",
+    "business"
+  ],
+  "author": "Szilvi",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  }
+}
