@@ -16,6 +16,18 @@ const AboutPage = () => {
             <p>
                 Thank you for considering me for your lash needs. I look forward to helping you look and feel your best!
             </p>
+            <section className="mt-8">
+                <h2 className="text-2xl font-semibold mb-4">Background</h2>
+                <p className="mb-4">
+                    This is where you can share your background, education, and experience.
+                </p>
+            </section>
+            <section className="mt-8">
+                <h2 className="text-2xl font-semibold mb-4">Interests</h2>
+                <p>
+                    Share your hobbies, interests, and passions here.
+                </p>
+            </section>
         </div>
     );
 };
